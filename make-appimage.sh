@@ -12,9 +12,7 @@ export STARTUPWMCLASS=
 export ALWAYS_SOFTWARE=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin
-
-# Additional changes can be done in between here
+quick-sharun ./AppDir/bin/*
 
 # Fix: NetHack's HACKDIR is "." (current directory), so sharun
 # must cd to $APPDIR/bin (where data files are) before launching.
