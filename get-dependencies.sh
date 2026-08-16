@@ -12,10 +12,8 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
-# Comment this out if you need an AUR package
-# make-aur-package
-
-# If the application needs to be manually built that has to be done down here
+echo "Building NetHack-X11..."
+echo "---------------------------------------------------------------"
 mkdir -p ./AppDir/bin
 VERSION=5.0.0
 wget https://github.com/NetHack/NetHack/archive/refs/tags/NetHack-${VERSION}_Released.tar.gz
