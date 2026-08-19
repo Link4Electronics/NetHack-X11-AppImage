@@ -7,7 +7,7 @@
 [![Latest Stable Release](https://img.shields.io/github/v/release/pkgforge-dev/NetHack-X11-AppImage)](https://github.com/pkgforge-dev/NetHack-X11-AppImage/releases/latest)
 
 <p align="center">
-  <img src="https://github.com/Link4Electronics/NetHack-X11-AppImage/blob/main/AppDir/nethack-x11.png" width="128" />
+  <img src="https://github.com/pkgforge-dev/NetHack-X11-AppImage/blob/main/AppDir/nethack-x11.png" width="128" />
 </p>
 
 
